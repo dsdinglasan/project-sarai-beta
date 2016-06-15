@@ -1,5 +1,6 @@
 import * as Components from './../../comp-lib';
 import root from './pages/root.jsx';
+import danika from './pages/danika.jsx';
 
 export default (injectDeps, context) => {
   const {CLPage} = Components;
@@ -46,4 +47,5 @@ export default (injectDeps, context) => {
   ];
 
   root(PageCtx, context, {Components, links});
+  danika(PageCtx, context, {Components, links});
 };
